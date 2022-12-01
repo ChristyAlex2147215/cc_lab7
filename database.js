@@ -17,6 +17,7 @@ connection.connect(function(error){
 	else
 	{
 		console.log('MySQL Database is connected Successfully');
+		console.log("Server running on :3000")
 	}
 });
 
